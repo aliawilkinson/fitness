@@ -7,6 +7,8 @@ Working home for the fitness education and coaching product idea. Product decisi
 - [Eat, Sleep, Move, Make It Fit curriculum](plans/eat-sleep-move-foundations-course.md): a practical foundations course covering food, sleep, movement, gym confidence, alcohol and cannabis, and the logistics that make activity happen.
 - [Targets and decision guide](plans/foundations-targets-and-decisions.md): formulas, starting rules, observations, and adjustment logic for movement, food, macros, hydration, sleep, substances, and recovery.
 - [Workout Outing Planner](plans/workout-outing-planner.md): a reusable door-to-door time calculator, packing checklist, fallback plan, and post-visit timing audit.
+- [Personal Fitness OS MVP](plans/personal-fitness-os-mvp.md): product behavior, Today / My Plan / Learn information architecture, calculation records, Cronometer handoff, overwhelmed mode, and staged build slices.
+- [Personal Fitness OS decision](decisions/0004-personal-fitness-operating-system.md): rationale, alternatives, tradeoffs, and validation criteria for the narrow user-zero prototype.
 - [Simple website revenue-share proposal](plans/website-revenue-share-proposal.md): current recommendation—she retains her business; the engineer receives a defined fee from eligible sales.
 - [Business decision records](decisions/README.md): strategy rationale, alternatives, and review conditions.
 - [Current compensation decision](decisions/0003-sales-based-setup-and-support.md): rationale, scope, term, reporting, and exit for the sales-based services proposal. It supersedes the earlier co-owner model.
@@ -32,4 +34,4 @@ The original `Gym Foundations — Business Plan.pdf` is retained as background. 
 
 ## Project status
 
-**Research milestone: complete. Curriculum outline, target-decision guide, and practical outing planner: prepared. Decision: proceed to customer validation; hold a full software build.** The curriculum has not been fully written or clinically reviewed. No customer interviews, paid pilot, production application, or external outreach has been completed as part of this work.
+**Research milestone: complete. Curriculum and target logic: prepared. Narrow Personal Fitness OS user-zero prototype: specified, not built. Decision: validate this workflow before a broad software build.** The curriculum has not been fully written or clinically reviewed. No customer interviews, paid pilot, production application, or external outreach has been completed as part of this work.
