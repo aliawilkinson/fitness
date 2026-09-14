@@ -15,6 +15,8 @@ Help a woman who wants to take better care of herself but feels unsure, bored, o
 
 The course should leave her able to choose an activity, plan the whole outing, perform a basic workout safely, assemble ordinary meals, protect sleep, understand common tradeoffs, and know when she needs a trainer, dietitian, or clinician.
 
+The companion [Targets and Decision Guide](foundations-targets-and-decisions.md) supplies the calculations, starting rules, observations, and adjustment logic behind these lessons.
+
 It can be sold as a standalone foundations course and included with recurring coaching. The supported version adds assessment, feedback, accountability, and personalization; the course gives every client a shared vocabulary before paid coaching time is used.
 
 ## The product promise
