@@ -4,6 +4,7 @@ Working home for the fitness education and coaching product idea. Product decisi
 
 ## Start here
 
+- [Canonical Personal Fitness OS product plan](plans/personal-fitness-os-product-plan.md): the complete who, what, when, where, why, how, offer, operating loop, responsibilities, validation sequence, economics, and decision gates.
 - [Eat, Sleep, Move, Make It Fit curriculum](plans/eat-sleep-move-foundations-course.md): a practical foundations course covering food, sleep, movement, gym confidence, alcohol and cannabis, and the logistics that make activity happen.
 - [Targets and decision guide](plans/foundations-targets-and-decisions.md): formulas, starting rules, observations, and adjustment logic for movement, food, macros, hydration, sleep, substances, and recovery.
 - [Workout Outing Planner](plans/workout-outing-planner.md): a reusable door-to-door time calculator, packing checklist, fallback plan, and post-visit timing audit.
