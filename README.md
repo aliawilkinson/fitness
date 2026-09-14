@@ -4,6 +4,7 @@ Working home for the fitness education and coaching product idea. Product decisi
 
 ## Start here
 
+- [Founder fit and Anaheim pilot](plans/founder-fit-and-anaheim-pilot.md): apply the research to a trainer–engineer collaboration, with local observation and an online delivery test.
 - [U.S. market gap assessment](research/2026-09-13-us-market-gap/report.md): quantitative comparison across fitness, weight management, nutrition, and recovery, with sources and reproducible calculations.
 - [National demand measurement plan](research/2026-09-13-us-market-gap/primary-research-plan.md): questionnaire, sampling, and purchase testing needed to establish an underserved paying audience. Prepared, not fielded.
 - [Reddit demand research — September 13, 2026](research/2026-09-13-reddit-demand.md): findings, competing solutions, evidence limits, and recommendation.
