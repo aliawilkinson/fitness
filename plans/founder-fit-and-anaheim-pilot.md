@@ -2,6 +2,8 @@
 
 This note applies the [market assessment](../research/2026-09-13-us-market-gap/report.md) to the proposed collaboration. It is a business recommendation, not new evidence of demand. No offer has been launched and no one has been contacted.
 
+**Commercial update:** the engineer has clarified a setup-and-support role. The current recommendation is the [sales-based services proposal](website-revenue-share-proposal.md), with the trainer retaining her business. The product and local-pilot reasoning below remains relevant.
+
 ## Context that changes the decision
 
 The prospective collaborators are a personal trainer with nutrition expertise and a software engineer interested in learning to create products and earn income online. Both are based in Anaheim, California. The trainer's reported strengths include working with women and glute development, and her reported audience is approximately 14,000 followers. Audience geography, engagement, purchasing history, available working hours, and the collaborators' business arrangements remain unverified.

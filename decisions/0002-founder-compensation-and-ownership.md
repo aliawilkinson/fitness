@@ -2,14 +2,16 @@
 
 | Field | Value |
 |---|---|
-| Status | **Proposed commercial terms for discussion**; not an executed agreement |
+| Status | **Superseded by [BDR-0003](0003-sales-based-setup-and-support.md)**; never recorded as accepted |
 | Date | September 13, 2026 |
 | Decision-makers | The trainer and the engineer, jointly; acceptance not recorded |
 | Applies to | Explicitly listed joint digital products and supported programs |
 | Related decision | [BDR-0001: Supported strength-start program](0001-supported-strength-program.md) |
 | Review point | After each cohort; formal continuation decision after a proposed 90-day pilot |
 
-## Recommendation
+## Historical recommendation
+
+**September 13, 2026 update:** the engineer clarified a setup-and-support role paid from sales. BDR-0003 replaces this co-owner proposal. The original reasoning below is preserved as decision history, not the current recommendation.
 
 **For a genuine collaboration in which both people remain active, start with a 50/50 split of the joint product's residual distributable profit, after approved costs, budgeted compensation for both people's work, and an agreed cash reserve.** Keep the trainer's existing business and both people's pre-existing assets outside the arrangement unless specifically licensed or contributed.
 

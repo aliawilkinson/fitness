@@ -6,10 +6,12 @@
 | Date | September 13, 2026 |
 | Decision-makers | The trainer and the engineer, jointly; acceptance not recorded |
 | Scope | First joint fitness product and validation sequence |
-| Related decision | [BDR-0002: Founder compensation and ownership](0002-founder-compensation-and-ownership.md) |
+| Related decision | [BDR-0003: Sales-based setup and support](0003-sales-based-setup-and-support.md) |
 | Review point | After the first paid cohort and at the end of an agreed 90-day pilot, whichever comes first |
 
 ## Context
+
+**Commercial clarification, September 13, 2026:** the trainer would operate the business, with the engineer paid under BDR-0003 for a defined setup and support scope. This refines the relationship assumed below while retaining the product-validation recommendation.
 
 The proposed team combines a personal trainer with nutrition expertise, a reported audience of approximately 14,000 followers, and experience training women, with a software engineer interested in building products and earning income online. Both are based in Anaheim, California. The trainer has particular expertise in glute development. Audience purchasing behavior, available weekly hours, business structure, and joint commitments have not yet been established.
 
@@ -67,7 +69,7 @@ Human support must be scoped and priced; otherwise apparent sales may hide unpai
 
 The product needs to work under ordinary remote conditions. Local participants and existing clients should be reported separately from new remote purchasers. No revenue forecast should divide sales by all followers or assume that everyone in a population shortfall is a potential buyer.
 
-The collaborators' earnings must be part of the model. Follow BDR-0002 to distinguish expenses, pay for approved work, residual profit, and ownership. Do not build a joint course that produces only an unpriced benefit to one collaborator's separate business.
+The collaborators' earnings must be part of the model. Follow BDR-0003 to define eligible sales, the engineer's fee, project costs, and support limits. Include the fee in the trainer's delivery economics and treat any unpaid setup work as an explicit, capped risk.
 
 ## Validation and review triggers
 
