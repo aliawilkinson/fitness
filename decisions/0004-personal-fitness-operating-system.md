@@ -19,15 +19,18 @@ The engineer has volunteered to be the first participant. This is useful founder
 
 ## Proposed decision
 
-Build a narrow, private **personal fitness operating system** prototype for a four-week user-zero trial. Organize the interface at three depths:
+Build a narrow, private **personal fitness operating system** prototype for a four-week user-zero trial. Organize the interface into four connected views:
 
 1. **Today:** the next actions, times, quantities, packing needs, and a deliberately short “overwhelmed” view.
 2. **My Plan:** the entire week, goals, target calculations, workouts, meals, recovery, and door-to-door logistics.
-3. **Learn:** the evidence, explanations, demonstrations, alternatives, and professional boundaries behind any recommendation.
+3. **Progress:** measurements, multiweek trends, current phase, plan changes, and the reason for each adjustment.
+4. **Learn:** the evidence, explanations, demonstrations, alternatives, and professional boundaries behind any recommendation.
 
 Use structured calculators and trainer-approved rules for quantitative targets and exercise programming. Use AI to collect information conversationally, explain results, assemble the schedule, answer questions, and revise the plan when circumstances change. Preserve the inputs, assumptions, source, and review status for every consequential recommendation.
 
 Treat the existing [course outline](../plans/eat-sleep-move-foundations-course.md) as the knowledge map and the [targets and decision guide](../plans/foundations-targets-and-decisions.md) as the first rule specification. Use the [Workout Outing Planner](../plans/workout-outing-planner.md) for the schedule model.
+
+Use the [Adaptive Tracking and Phase Rules](../plans/adaptive-tracking-and-phase-rules.md) to version measurements and plans, distinguish noise from trends, and govern fat-loss, maintenance, muscle-gain, progression, rest, stretching, and deload decisions.
 
 Do not begin with a broad production platform, social network, autonomous medical adviser, or generalized trainer marketplace.
 
@@ -84,9 +87,9 @@ Any number such as calories, protein, water, sleep opportunity, or workout load 
 4. the assumptions and professional boundary;
 5. the observations that will cause an adjustment.
 
-### Weekly revision
+### Longitudinal plan state and weekly revision
 
-The app compares planned and completed behavior, actual outing time, energy, hunger, sleep, pain, enjoyment, and optional body measurements. It changes the smallest likely bottleneck and asks for trainer review when the rule set does not cover the situation.
+The app preserves measurements and prior plan versions instead of regenerating a disconnected plan. It compares planned and completed behavior, actual outing time, energy, hunger, sleep, pain, enjoyment, performance, and optional body measurements. It changes the smallest likely bottleneck, explains why the change occurred, and asks for trainer or clinical review when the rule set does not cover the situation.
 
 ## Why this direction
 
@@ -96,7 +99,7 @@ The desired experience combines information that is normally fragmented across c
 
 ### It supports different cognitive depths
 
-The same user may want one instruction during a stressful transition and a complete explanation later. Today, My Plan, and Learn provide those depths without requiring separate products.
+The same user may want one instruction during a stressful transition, a complete explanation later, or a clear account of what changed over several months. Today, My Plan, Progress, and Learn provide those depths without requiring separate products.
 
 ### It gives the trainer a defensible role
 
@@ -132,7 +135,7 @@ During the four-week user-zero trial, measure:
 - planned versus completed activity outings;
 - accuracy of door-to-door time estimates;
 - number of decisions the user had to recreate elsewhere;
-- use of Today, My Plan, Learn, and overwhelmed mode;
+- use of Today, My Plan, Progress, Learn, and overwhelmed mode;
 - contradictions or unsafe recommendations;
 - occasions when trainer or clinical review was correctly requested;
 - whether the weekly revision made the next week easier.

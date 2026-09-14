@@ -9,7 +9,7 @@ A business case argues for an investment; a BDR preserves what was recommended o
 | [BDR-0001](0001-supported-strength-program.md) | Proposed | Validate a supported strength-start program before a broad software product |
 | [BDR-0002](0002-founder-compensation-and-ownership.md) | Superseded; never accepted | Earlier co-owner model, replaced following clarification of the engineer's intended role |
 | [BDR-0003](0003-sales-based-setup-and-support.md) | Proposed | Sales-based compensation for setup and support of the trainer's business |
-| [BDR-0004](0004-personal-fitness-operating-system.md) | Proposed | Prototype a Today / My Plan / Learn personal fitness operating system |
+| [BDR-0004](0004-personal-fitness-operating-system.md) | Proposed | Prototype a Today / My Plan / Progress / Learn personal fitness operating system |
 
 ## Recording decisions
 

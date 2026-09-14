@@ -7,7 +7,8 @@ Working home for the fitness education and coaching product idea. Product decisi
 - [Eat, Sleep, Move, Make It Fit curriculum](plans/eat-sleep-move-foundations-course.md): a practical foundations course covering food, sleep, movement, gym confidence, alcohol and cannabis, and the logistics that make activity happen.
 - [Targets and decision guide](plans/foundations-targets-and-decisions.md): formulas, starting rules, observations, and adjustment logic for movement, food, macros, hydration, sleep, substances, and recovery.
 - [Workout Outing Planner](plans/workout-outing-planner.md): a reusable door-to-door time calculator, packing checklist, fallback plan, and post-visit timing audit.
-- [Personal Fitness OS MVP](plans/personal-fitness-os-mvp.md): product behavior, Today / My Plan / Learn information architecture, calculation records, Cronometer handoff, overwhelmed mode, and staged build slices.
+- [Adaptive tracking and phase rules](plans/adaptive-tracking-and-phase-rules.md): measurement cadence and explained decisions for fat loss, maintenance, muscle gain, progression, rest, stretching, and deloads.
+- [Personal Fitness OS MVP](plans/personal-fitness-os-mvp.md): product behavior, Today / My Plan / Progress / Learn information architecture, calculation records, Cronometer handoff, overwhelmed mode, and staged build slices.
 - [Personal Fitness OS decision](decisions/0004-personal-fitness-operating-system.md): rationale, alternatives, tradeoffs, and validation criteria for the narrow user-zero prototype.
 - [Simple website revenue-share proposal](plans/website-revenue-share-proposal.md): current recommendation—she retains her business; the engineer receives a defined fee from eligible sales.
 - [Business decision records](decisions/README.md): strategy rationale, alternatives, and review conditions.

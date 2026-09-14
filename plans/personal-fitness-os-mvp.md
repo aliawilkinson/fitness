@@ -29,6 +29,19 @@ This view contains:
 - progress and the next review date;
 - assumptions and unanswered questions.
 
+### Progress
+
+This view explains what is changing over time:
+
+- current phase: calibration, fat loss, maintenance, or muscle gain;
+- multiweek weight and waist trends;
+- strength, aerobic activity, sleep, recovery, and adherence;
+- body-fat estimates with their uncertainty;
+- current decision: hold, progress, simplify, maintain, or request review;
+- every target change, its reason, and its next review date.
+
+Use the [Adaptive Tracking and Phase Rules](adaptive-tracking-and-phase-rules.md) as the first specification for measurement cadence and changes.
+
 ### Learn
 
 This is a browsable map rather than a required linear course:
@@ -104,6 +117,8 @@ Initial calculators:
 - complete activity-outing time;
 - standard alcohol drink estimation;
 - two-to-four-week trend review.
+
+The plan is versioned over time. Measurements and check-ins never overwrite prior targets; they create an explained decision and, when needed, a new plan version.
 
 AI turns structured results into useful language and schedules. It does not silently change formulas, invent measurements, or hide uncertainty.
 
@@ -197,6 +212,9 @@ The engine proposes one or two changes and shows why. The user approves the new 
 - Every scheduled workout includes preparation and transition time.
 - The user can choose full, short, or minimum without rebuilding the day.
 - The plan can be revised without losing the prior version or observations.
+- The Progress view distinguishes a single measurement from a multiweek trend.
+- The app can move deliberately among calibration, fat loss, maintenance, and muscle-gain phases.
+- Rest, lighter training, progression, stretching, and deload decisions follow inspectable rules.
 - The app never treats a body-fat estimate as exact.
 - The app routes symptoms, medication questions, pregnancy-related care, lab interpretation, deficiencies, eating-disorder concerns, and unapproved exercise substitutions to appropriate human review.
 - After four weeks, the team can tell whether the app reduced planning work and increased completed outings.
