@@ -1,0 +1,53 @@
+{
+  "adult_activity_shortfalls": [
+    {
+      "measure_id": "strength_2024",
+      "shortfall_percent": 67.1,
+      "population": "U.S. adults 18+, 2024; age-adjusted to the 2000 standard population",
+      "interpretation": "Guideline shortfall, not unmet paid demand"
+    },
+    {
+      "measure_id": "aerobic_adjusted_2024",
+      "shortfall_percent": 52,
+      "population": "U.S. adults 18+, 2024; age-adjusted to the 2000 standard population",
+      "interpretation": "Guideline shortfall, not unmet paid demand"
+    },
+    {
+      "measure_id": "both_2024",
+      "shortfall_percent": 73.6,
+      "population": "U.S. adults 18+, 2024; age-adjusted to the 2000 standard population",
+      "interpretation": "Guideline shortfall, not unmet paid demand"
+    }
+  ],
+  "strength_vs_aerobic_shortfall_difference_pp": 15.1,
+  "women_aerobic_only_population_approx": 12170927,
+  "women_aerobic_only_interpretation": "Approximate population equivalent using the published pooled 2022/2024 weighted base and rounded percentage. Not a 2026 count, buyer estimate, or official count confidence interval.",
+  "fitness_goal_population_equivalents": [
+    {
+      "measure_id": "goal_strength",
+      "approx_people": 41000000,
+      "interpretation": "Rounded goal-interest population equivalent. Categories overlap; not unsatisfied customers or expected buyers."
+    },
+    {
+      "measure_id": "goal_mobility",
+      "approx_people": 39360000,
+      "interpretation": "Rounded goal-interest population equivalent. Categories overlap; not unsatisfied customers or expected buyers."
+    },
+    {
+      "measure_id": "goal_mental_health",
+      "approx_people": 37720000,
+      "interpretation": "Rounded goal-interest population equivalent. Categories overlap; not unsatisfied customers or expected buyers."
+    }
+  ],
+  "sleep_shortfall_vs_aerobic_shortfall": {
+    "aerobic_shortfall_percent": 52.8,
+    "aerobic_shortfall_ci95_percent": [
+      52,
+      53.7
+    ],
+    "short_sleep_percent": 30.5,
+    "interpretation": "Both crude adult NHIS 2024 estimates, but different outcomes. Neither identifies demand for a digital product."
+  },
+  "commercial_unmet_demand_by_segment": null,
+  "commercial_unmet_demand_reason": "No common-sample observations jointly measure recent unresolved need, dissatisfaction with alternatives, digital suitability, and purchase at a specified price."
+}

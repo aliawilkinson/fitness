@@ -1,0 +1,467 @@
+{
+  "scope": "U.S. fitness and supporting nutrition/recovery; decisions for a small digital business",
+  "as_of": "2026-09-13",
+  "units": "Percent values use 0–100, not fractions.",
+  "limitations": "Different populations, questions, and dates must not be pooled. Commercial unmet demand remains unmeasured.",
+  "measurements": [
+    {
+      "id": "strength_2024",
+      "value": 32.9,
+      "unit": "percent",
+      "population": "U.S. adults 18+, age-adjusted",
+      "data_period": "2024",
+      "source_id": 1,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": null
+    },
+    {
+      "id": "aerobic_adjusted_2024",
+      "value": 48,
+      "unit": "percent",
+      "population": "U.S. adults 18+, age-adjusted",
+      "data_period": "2024",
+      "source_id": 2,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": null
+    },
+    {
+      "id": "both_2024",
+      "value": 26.4,
+      "unit": "percent",
+      "population": "U.S. adults 18+, age-adjusted",
+      "data_period": "2024",
+      "source_id": 3,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": null
+    },
+    {
+      "id": "aerobic_crude_2024",
+      "value": 47.2,
+      "unit": "percent",
+      "population": "U.S. adults 18+, crude",
+      "data_period": "2024",
+      "source_id": 32,
+      "evidence_type": "participation",
+      "notes": "Do not mix with age-adjusted values for a same-basis comparison.",
+      "ci95": [
+        46.3,
+        48
+      ]
+    },
+    {
+      "id": "aerobic_women",
+      "value": 42.4,
+      "unit": "percent",
+      "population": "U.S. women 18+, crude",
+      "data_period": "2024",
+      "source_id": 32,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": [
+        41.3,
+        43.4
+      ]
+    },
+    {
+      "id": "aerobic_65plus",
+      "value": 38.4,
+      "unit": "percent",
+      "population": "U.S. adults 65+, crude",
+      "data_period": "2024",
+      "source_id": 32,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": [
+        37.1,
+        39.7
+      ]
+    },
+    {
+      "id": "aerobic_with_disabilities",
+      "value": 22.4,
+      "unit": "percent",
+      "population": "U.S. adults 18+ with disability under source definition",
+      "data_period": "2024",
+      "source_id": 32,
+      "evidence_type": "participation",
+      "notes": "Not every shortfall is suitable for an unsupervised digital intervention.",
+      "ci95": [
+        20.6,
+        24.3
+      ]
+    },
+    {
+      "id": "women_aerobic_only",
+      "value": 21.7,
+      "unit": "percent",
+      "population": "U.S. women 18–44; pooled study",
+      "data_period": "2022 and 2024",
+      "source_id": 4,
+      "evidence_type": "participation",
+      "notes": "Already meets aerobic guideline; below strength guideline.",
+      "ci95": [
+        20.7,
+        22.6
+      ]
+    },
+    {
+      "id": "women_weighted_population",
+      "value": 56087223,
+      "unit": "people",
+      "population": "U.S. women 18–44; weighted study base",
+      "data_period": "2022 and 2024",
+      "source_id": 4,
+      "evidence_type": "population",
+      "notes": "Table 1 footnote; not the sum of two annual U.S. populations.",
+      "ci95": null
+    },
+    {
+      "id": "women_both",
+      "value": 25.1,
+      "unit": "percent",
+      "population": "U.S. women 18–44; pooled study",
+      "data_period": "2022 and 2024",
+      "source_id": 4,
+      "evidence_type": "participation",
+      "notes": "",
+      "ci95": [
+        24.1,
+        26.1
+      ]
+    },
+    {
+      "id": "women_strength_sufficient",
+      "value": 31.1,
+      "unit": "percent",
+      "population": "U.S. women 18–44; pooled study",
+      "data_period": "2022 and 2024",
+      "source_id": 4,
+      "evidence_type": "participation",
+      "notes": "Use direct Table 2 estimate, not sum of rounded Table 1 categories.",
+      "ci95": [
+        30.1,
+        32.2
+      ]
+    },
+    {
+      "id": "fitness_goal_setters",
+      "value": 82000000,
+      "unit": "people",
+      "population": "U.S. adults setting fitness resolutions",
+      "data_period": "2026 intentions surveyed December 2025",
+      "source_id": 6,
+      "evidence_type": "stated intention",
+      "notes": "Rounded publisher population estimate.",
+      "ci95": null
+    },
+    {
+      "id": "goal_strength",
+      "value": 50,
+      "unit": "percent",
+      "population": "U.S. adults setting health/fitness resolutions",
+      "data_period": "2026 intentions surveyed December 2025",
+      "source_id": 6,
+      "evidence_type": "stated intention",
+      "notes": "Multiple goals may be selected; no joint satisfaction or purchase measure.",
+      "ci95": null
+    },
+    {
+      "id": "goal_mobility",
+      "value": 48,
+      "unit": "percent",
+      "population": "U.S. adults setting health/fitness resolutions",
+      "data_period": "2026 intentions surveyed December 2025",
+      "source_id": 6,
+      "evidence_type": "stated intention",
+      "notes": "Mobility, flexibility, and/or posture grouped together.",
+      "ci95": null
+    },
+    {
+      "id": "goal_mental_health",
+      "value": 46,
+      "unit": "percent",
+      "population": "U.S. adults setting health/fitness resolutions",
+      "data_period": "2026 intentions surveyed December 2025",
+      "source_id": 6,
+      "evidence_type": "stated intention",
+      "notes": "Mental-health benefits through physical activity, not demand for clinical therapy.",
+      "ci95": null
+    },
+    {
+      "id": "fitness_monthly_budget",
+      "value": 61,
+      "unit": "USD/month",
+      "population": "U.S. adults setting health/fitness resolutions",
+      "data_period": "2026 intentions surveyed December 2025",
+      "source_id": 6,
+      "evidence_type": "planned spending",
+      "notes": "Total category budget; not incremental app willingness to pay.",
+      "ci95": null
+    },
+    {
+      "id": "facility_members",
+      "value": 81000000,
+      "unit": "people",
+      "population": "U.S. residents age 6+ with facility membership",
+      "data_period": "2025",
+      "source_id": 7,
+      "evidence_type": "existing participation",
+      "notes": "Do not equate with adult-only paid digital buyers.",
+      "ci95": null
+    },
+    {
+      "id": "facility_never_visiting",
+      "value": 4.6,
+      "unit": "percent",
+      "population": "U.S. fitness facility members",
+      "data_period": "2025",
+      "source_id": 7,
+      "evidence_type": "existing participation",
+      "notes": "Did not use membership at all; not same as below recommended exercise.",
+      "ci95": null
+    },
+    {
+      "id": "personal_training_use",
+      "value": 22.6,
+      "unit": "percent",
+      "population": "U.S. fitness facility members age 6+",
+      "data_period": "2024",
+      "source_id": 8,
+      "evidence_type": "adjacent service use",
+      "notes": "No price or unsatisfied-buyer count.",
+      "ci95": null
+    },
+    {
+      "id": "small_group_training_use",
+      "value": 32.3,
+      "unit": "percent",
+      "population": "U.S. fitness facility members age 6+",
+      "data_period": "2024",
+      "source_id": 8,
+      "evidence_type": "adjacent service use",
+      "notes": "",
+      "ci95": null
+    },
+    {
+      "id": "aarp_exercise_barriers",
+      "value": 62,
+      "unit": "percent",
+      "population": "U.S. adults 50+",
+      "data_period": "April 2025",
+      "source_id": 9,
+      "evidence_type": "reported barrier",
+      "notes": "Any cited barrier; not all addressable by education or AI.",
+      "ci95": null
+    },
+    {
+      "id": "aarp_sleep_barriers",
+      "value": 65,
+      "unit": "percent",
+      "population": "U.S. adults 50+",
+      "data_period": "April 2025",
+      "source_id": 9,
+      "evidence_type": "reported barrier",
+      "notes": "Same survey as exercise barriers; not a demand ranking.",
+      "ci95": null
+    },
+    {
+      "id": "aarp_howto_intention",
+      "value": 75,
+      "unit": "percent",
+      "population": "U.S. adults 50+",
+      "data_period": "April 2025",
+      "source_id": 9,
+      "evidence_type": "stated intention",
+      "notes": "Likelihood of adding brain-healthy behaviors with how-to instructions; not exercise-only or paid intent.",
+      "ci95": null
+    },
+    {
+      "id": "motivation_difficulty",
+      "value": 37,
+      "unit": "percent",
+      "population": "U.S. respondents in McKinsey wellness survey",
+      "data_period": "November 2024",
+      "source_id": 11,
+      "evidence_type": "reported barrier",
+      "notes": "Not everyone wants a motivational app.",
+      "ci95": null
+    },
+    {
+      "id": "short_sleep_2024",
+      "value": 30.5,
+      "unit": "percent",
+      "population": "U.S. adults 18+, crude",
+      "data_period": "2024",
+      "source_id": 13,
+      "evidence_type": "health/behavior prevalence",
+      "notes": "Less than seven hours; not a clinical diagnosis.",
+      "ci95": [
+        29.8,
+        31.1
+      ]
+    },
+    {
+      "id": "chronic_pain_2023",
+      "value": 24.3,
+      "unit": "percent",
+      "population": "U.S. adults 18+, crude",
+      "data_period": "2023",
+      "source_id": 14,
+      "evidence_type": "health prevalence",
+      "notes": "Pain most days or every day in previous three months.",
+      "ci95": [
+        23.7,
+        24.9
+      ]
+    },
+    {
+      "id": "high_impact_pain_2023",
+      "value": 8.5,
+      "unit": "percent",
+      "population": "U.S. adults 18+, crude",
+      "data_period": "2023",
+      "source_id": 14,
+      "evidence_type": "health prevalence",
+      "notes": "Subset of chronic pain; do not add to total.",
+      "ci95": [
+        8.1,
+        8.9
+      ]
+    },
+    {
+      "id": "glp1_weight_current",
+      "value": 11,
+      "unit": "percent",
+      "population": "U.S. adults 18+",
+      "data_period": "May/June 2026",
+      "source_id": 15,
+      "evidence_type": "existing treatment use",
+      "notes": "Not all indications, unmet need, or digital-coaching demand.",
+      "ci95": null
+    },
+    {
+      "id": "glp1_any_current",
+      "value": 12,
+      "unit": "percent",
+      "population": "U.S. adults 18+",
+      "data_period": "Oct/Nov 2025",
+      "source_id": 16,
+      "evidence_type": "existing treatment use",
+      "notes": "Different time and question from Gallup; no trend computed between them.",
+      "ci95": null
+    },
+    {
+      "id": "diet_cost_barrier",
+      "value": 46,
+      "unit": "percent",
+      "population": "U.S. adults in Cleveland Clinic national survey",
+      "data_period": "Reported February 2023",
+      "source_id": 25,
+      "evidence_type": "reported barrier",
+      "notes": "Perceived cost of healthy food; historical.",
+      "ci95": null
+    },
+    {
+      "id": "diet_time_barrier",
+      "value": 23,
+      "unit": "percent",
+      "population": "U.S. adults in Cleveland Clinic national survey",
+      "data_period": "Reported February 2023",
+      "source_id": 25,
+      "evidence_type": "reported barrier",
+      "notes": "Time to prepare healthy meals.",
+      "ci95": null
+    },
+    {
+      "id": "diet_cooking_barrier",
+      "value": 20,
+      "unit": "percent",
+      "population": "U.S. adults in Cleveland Clinic national survey",
+      "data_period": "Reported February 2023",
+      "source_id": 25,
+      "evidence_type": "reported barrier",
+      "notes": "Unfamiliarity with healthy cooking.",
+      "ci95": null
+    },
+    {
+      "id": "more_protein_interest",
+      "value": 70,
+      "unit": "percent",
+      "population": "U.S. adult respondents ages 18–80",
+      "data_period": "March 2025",
+      "source_id": 30,
+      "evidence_type": "stated nutrition behavior",
+      "notes": "Trying to consume more protein; not measured deficiency.",
+      "ci95": null
+    },
+    {
+      "id": "ai_monthly_y1_retention",
+      "value": 6.1,
+      "unit": "percent",
+      "population": "Global AI subscription apps in RevenueCat dataset; median app",
+      "data_period": "2026 report; historical cohorts",
+      "source_id": 29,
+      "evidence_type": "subscription benchmark",
+      "notes": "Cross-category, not U.S. fitness-only; not exercise adherence.",
+      "ci95": null
+    },
+    {
+      "id": "nonai_monthly_y1_retention",
+      "value": 9.5,
+      "unit": "percent",
+      "population": "Global non-AI subscription apps in RevenueCat dataset; median app",
+      "data_period": "2026 report; historical cohorts",
+      "source_id": 29,
+      "evidence_type": "subscription benchmark",
+      "notes": "Observational comparison, not causal AI effect.",
+      "ci95": null
+    },
+    {
+      "id": "cancellation_difficulty",
+      "value": 63,
+      "unit": "percent",
+      "population": "U.S. public survey respondents",
+      "data_period": "December 2025",
+      "source_id": 33,
+      "evidence_type": "industry perception",
+      "notes": "Perception that the industry makes membership changes/cancellation difficult.",
+      "ci95": null
+    },
+    {
+      "id": "weight_loss_desire",
+      "value": 52,
+      "unit": "percent",
+      "population": "U.S. adults 18+",
+      "data_period": "November 2025",
+      "source_id": 34,
+      "evidence_type": "stated desire",
+      "notes": "Want to lose weight; not limited to fitness-resolution setters.",
+      "ci95": null
+    },
+    {
+      "id": "weight_loss_trying",
+      "value": 26,
+      "unit": "percent",
+      "population": "U.S. adults 18+",
+      "data_period": "November 2025",
+      "source_id": 34,
+      "evidence_type": "stated behavior",
+      "notes": "Seriously trying to lose weight; not necessarily paying for help.",
+      "ci95": null
+    },
+    {
+      "id": "obesity_prevalence",
+      "value": 40.3,
+      "unit": "percent",
+      "population": "U.S. adults 20+, crude; NHANES analysis exclusions apply",
+      "data_period": "August 2021–August 2023",
+      "source_id": 35,
+      "evidence_type": "health prevalence",
+      "notes": "Measured BMI >=30. Not equivalent to desire to lose weight or demand for a service.",
+      "ci95": null
+    }
+  ]
+}
