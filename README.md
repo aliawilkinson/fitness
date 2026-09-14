@@ -4,6 +4,8 @@ Working home for the fitness education and coaching product idea. Product decisi
 
 ## Start here
 
+- [Eat, Sleep, Move, Make It Fit curriculum](plans/eat-sleep-move-foundations-course.md): a practical foundations course covering food, sleep, movement, gym confidence, alcohol and cannabis, and the logistics that make activity happen.
+- [Workout Outing Planner](plans/workout-outing-planner.md): a reusable door-to-door time calculator, packing checklist, fallback plan, and post-visit timing audit.
 - [Simple website revenue-share proposal](plans/website-revenue-share-proposal.md): current recommendation—she retains her business; the engineer receives a defined fee from eligible sales.
 - [Business decision records](decisions/README.md): strategy rationale, alternatives, and review conditions.
 - [Current compensation decision](decisions/0003-sales-based-setup-and-support.md): rationale, scope, term, reporting, and exit for the sales-based services proposal. It supersedes the earlier co-owner model.
@@ -19,7 +21,7 @@ Working home for the fitness education and coaching product idea. Product decisi
 
 **Business arrangement:** help the trainer sell through her business under the proposed sales-based services agreement. The current starting proposal is 20% of eligible digital-product receipts and 10% of the first package for eligible new coaching customers, for 12 months with bounded setup and support. These rates are proposed, not accepted or industry benchmarks. There is no proposed 50/50 ownership under this revised model.
 
-Test **assisted strength adoption for women who want to start or resume strength training**, including women who already do aerobic exercise. The guided first month at the gym remains one version of this offer. Teach essentials as they become useful and provide bounded trainer feedback. Compare mobility and general weight-management needs in broader validation.
+Test **assisted strength adoption for women who want to start or resume strength training**, including women who already do aerobic exercise. The guided first month at the gym remains one version of this offer. Use the new foundations curriculum to test a broader promise: understanding how to eat, sleep, move, and fit the plan into real life. Teach essentials as they become useful and provide bounded trainer feedback. Compare mobility and general weight-management needs in broader validation.
 
 National data establishes a larger strength than aerobic participation shortfall and substantial interest in several outcomes. It does **not** establish the largest underserved paid digital market. The current business priority combines that evidence with the trainer’s expertise and audience; it remains a hypothesis.
 
@@ -29,4 +31,4 @@ The original `Gym Foundations — Business Plan.pdf` is retained as background. 
 
 ## Project status
 
-**Research milestone: complete. Decision: proceed to customer validation; hold a full software build.** No customer interviews, paid pilot, production application, or external outreach has been completed as part of this research.
+**Research milestone: complete. Curriculum outline and practical outing planner: prepared. Decision: proceed to customer validation; hold a full software build.** The curriculum has not been fully written or clinically reviewed. No customer interviews, paid pilot, production application, or external outreach has been completed as part of this work.
