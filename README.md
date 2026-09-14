@@ -4,6 +4,8 @@ Working home for the fitness education and coaching product idea. Product decisi
 
 ## Start here
 
+- [Business decision records](decisions/README.md): strategy rationale, alternatives, and review conditions.
+- [Proposed founder economics](decisions/0002-founder-compensation-and-ownership.md): expenses, compensation, 50/50 residual profit, course licensing, and ownership boundaries. For discussion; not an executed agreement.
 - [Founder fit and Anaheim pilot](plans/founder-fit-and-anaheim-pilot.md): apply the research to a trainer–engineer collaboration, with local observation and an online delivery test.
 - [U.S. market gap assessment](research/2026-09-13-us-market-gap/report.md): quantitative comparison across fitness, weight management, nutrition, and recovery, with sources and reproducible calculations.
 - [National demand measurement plan](research/2026-09-13-us-market-gap/primary-research-plan.md): questionnaire, sampling, and purchase testing needed to establish an underserved paying audience. Prepared, not fielded.
