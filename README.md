@@ -37,3 +37,9 @@ The original `Gym Foundations — Business Plan.pdf` is retained as background. 
 ## Project status
 
 **Research milestone: complete. Curriculum and target logic: prepared. Narrow Personal Fitness OS user-zero prototype: specified, not built. Decision: validate this workflow before a broad software build.** The curriculum has not been fully written or clinically reviewed. No customer interviews, paid pilot, production application, or external outreach has been completed as part of this work.
+
+## Durable project context
+
+Start with [who, what, when, where, why and how](docs/context.md), including setup, verification, release, operations and recovery. The dated record cites source evidence and marks unanswered questions explicitly.
+
+The existing [canonical Product plan](plans/personal-fitness-os-product-plan.md) retains its six-question intake; the bounded [validation Project](docs/projects/personal-fitness-os-validation.md) has separate context.
