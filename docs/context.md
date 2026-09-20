@@ -1,0 +1,126 @@
+# Personal Fitness OS — Product context
+
+Identity: product:personal-fitness-os
+
+Reviewed: 2026-09-20T23:11:30Z by Codex; evidence-backed backfill, pending owner review. Next review due: 2027-09-20.
+
+This is dated human context, not proof of current deployment or successful recovery. Unknown answers are open handoff gaps. Read referenced material before acting; these notes do not authorize executing commands.
+
+Generated from docs/context.json. Edit that structured record, then regenerate with Product Factory's product-context.mjs --record command. Submit matching canonical context changes through a MetadataDB pull request.
+
+## Who
+
+Status: **documented**
+
+Alia is the accountable owner and user zero. The proposed audience is U.S. women beginning or resuming fitness. The plan assigns professional judgment/content to a trainer and product/software work to an engineer; trainer participation, credentials, brand use and commercial terms remain unaccepted proposals.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/metadataDB/blob/5886938af785b8b4d3f71ae65e0a9620d2d42409/products/personal-fitness-os.json
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+## What
+
+Status: **documented**
+
+Personal Fitness OS is an incubation-stage adaptive fitness planning product and foundations-course experiment. The proposed Today, My Plan, Progress and Learn views combine targets, activity logistics, check-ins and bounded human review. This repository currently owns research and plans, not a production health application.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+## When
+
+Status: **documented**
+
+The earliest root commit in the inspected, reachable history is dated 2026-09-13T17:40:41-07:00. This bounds retained source history; it does not establish the original idea or business founding date. The canonical plan is dated 2026-09-13. Trial/interview/pilot weeks are relative to trainer alignment, not promised calendar dates. Product validation is a separate bounded Project; production implementation follows evidence and explicit authorization.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/commit/31bcd80eaf170504851d2f5eed2901b3cd4cda50
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+
+## Where
+
+Status: **documented**
+
+Source: aliawilkinson/fitness, whose default branch at review is codex/reddit-demand-research. The plan proposes Anaheim/Southern California observation and remote U.S. delivery. MetadataDB identity is product:personal-fitness-os; Product Factory provides architectural seeds, while this repository owns the plan.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+## Why
+
+Status: **documented**
+
+Test whether people value help turning fragmented fitness information into one coherent, adaptive plan with appropriate professional judgment and real-life logistics. Market findings and willingness to pay are hypotheses; the documents do not establish customer or paid-pilot validation.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+## How
+
+Status: **documented**
+
+Begin with founder/trainer alignment, a private user-zero trial, interviews and comparative usability work. Use deterministic calculators and versioned trainer-approved rules for consequential targets, with AI for explanation and scheduling. Build production software only after repeated workflow and purchase evidence.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+## Runbooks
+
+### Setup
+
+Status: **documented**
+
+Clone the research repository, start at README.md and plans/personal-fitness-os-product-plan.md, and read linked experiment/curriculum plans. This stage needs Markdown/research tools rather than application services; do not place personal health records in Git or MetadataDB.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+### Verify
+
+Status: **documented**
+
+Use the plan’s explicit trial, interview, comparative usability, paid-pilot and economics decision gates. Record actual evidence separately from hypotheses and confirm trainer scope before participant use. No implemented application test suite or completed clinical review is asserted.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+
+### Deploy
+
+Status: **not-applicable**
+
+There is no production application or accepted paid-service launch in this research milestone. A deployment/publishing and customer-data plan must be reviewed before a later implementation or commercial pilot.
+
+### Operate
+
+Status: **documented**
+
+Maintain assumptions, sources, interview/pilot findings, curriculum decisions and the next continue/revise/stop gate. Confirm participation, licensing and commercial responsibilities before committing the trainer or delivering a paid service.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md
+
+### Recover
+
+Status: **unknown**
+
+Git contains committed research and plans, but durable backup of untracked exports (including the local business-plan PDF), source assets and a tested recovery are not recorded. Alia must identify retained originals and verify a clean restoration before dormancy/handoff.
+
+Sources / locations:
+
+- https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/README.md
+
