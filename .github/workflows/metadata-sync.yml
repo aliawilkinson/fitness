@@ -1,0 +1,23 @@
+name: Notify MetadataDB of source and release evidence
+on:
+  push:
+    branches: [codex/reddit-demand-research]
+    paths: ['.product-factory/metadata-db.registration.json', 'reports/releases/**', 'mobile/package.json', 'apps/*/package.json', 'packages/**/package.json', 'packages/**/provenance.json', 'product.config.json', 'plans/**', 'decisions/**', 'research/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: 22
+      - run: node scripts/notify-metadata-db.mjs
+        env:
+          METADATA_DB_TOKEN: ${{ secrets.METADATA_DB_TOKEN }}
+          METADATA_DB_REPOSITORY: ${{ vars.METADATA_DB_REPOSITORY }}

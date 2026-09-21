@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "1.0.0",
+  "kind": "MetadataDbRegistration",
+  "producer": "product-factory",
+  "product": {
+    "$schema": "../schemas/product.v1.schema.json",
+    "schemaVersion": "1.0.0",
+    "kind": "Product",
+    "id": "personal-fitness-os",
+    "type": "product.software.fitness-planning",
+    "name": "Personal Fitness OS",
+    "status": "seed",
+    "repositoryRefs": [
+      "repository:fitness"
+    ],
+    "componentRefs": [
+      "component:personal-fitness-os-ai",
+      "component:personal-fitness-os-analytics",
+      "component:personal-fitness-os-api",
+      "component:personal-fitness-os-auth",
+      "component:personal-fitness-os-billing",
+      "component:personal-fitness-os-cloud-infrastructure",
+      "component:personal-fitness-os-database",
+      "component:personal-fitness-os-delivery-pipeline",
+      "component:personal-fitness-os-growth",
+      "component:personal-fitness-os-notifications",
+      "component:personal-fitness-os-observability",
+      "component:personal-fitness-os-web",
+      "component:personal-fitness-os-research-and-course"
+    ]
+  },
+  "components": [
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-ai",
+      "type": "service.ai",
+      "productRef": "product:personal-fitness-os",
+      "name": "AI service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-analytics",
+      "type": "service.analytics",
+      "productRef": "product:personal-fitness-os",
+      "name": "Analytics service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-api",
+      "type": "service.api",
+      "productRef": "product:personal-fitness-os",
+      "name": "API service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-auth",
+      "type": "service.identity",
+      "productRef": "product:personal-fitness-os",
+      "name": "Identity service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-billing",
+      "type": "service.billing",
+      "productRef": "product:personal-fitness-os",
+      "name": "Billing service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-cloud-infrastructure",
+      "type": "infrastructure.cloud",
+      "productRef": "product:personal-fitness-os",
+      "name": "Cloud infrastructure",
+      "status": "planned",
+      "provider": "aws",
+      "deployment": {
+        "method": "pulumi",
+        "independentlyDeployable": true,
+        "deploymentGroup": "personal-fitness-os-cloud-infrastructure",
+        "projectPath": "infra"
+      }
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-database",
+      "type": "data.relational",
+      "productRef": "product:personal-fitness-os",
+      "name": "Product database",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-delivery-pipeline",
+      "type": "delivery.pipeline",
+      "productRef": "product:personal-fitness-os",
+      "name": "Delivery pipeline",
+      "status": "planned",
+      "provider": "aws",
+      "deployment": {
+        "method": "generated-pipeline",
+        "independentlyDeployable": true,
+        "deploymentGroup": "personal-fitness-os-delivery-pipeline",
+        "projectPath": ".github/workflows"
+      }
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-growth",
+      "type": "content.growth",
+      "productRef": "product:personal-fitness-os",
+      "name": "Growth content",
+      "status": "planned"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-notifications",
+      "type": "service.notifications",
+      "productRef": "product:personal-fitness-os",
+      "name": "Notification service",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-observability",
+      "type": "infrastructure.observability",
+      "productRef": "product:personal-fitness-os",
+      "name": "Product observability",
+      "status": "planned",
+      "provider": "aws",
+      "deployment": {
+        "method": "versioned-product-factory-component",
+        "independentlyDeployable": true,
+        "deploymentGroup": "personal-fitness-os-observability",
+        "projectPath": "packages/aws-observability",
+        "moduleVersions": [
+          {
+            "name": "portfolio-observability/aws-observability",
+            "version": "0.1.0"
+          }
+        ]
+      }
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-web",
+      "type": "application.web",
+      "productRef": "product:personal-fitness-os",
+      "name": "Web application",
+      "status": "planned",
+      "provider": "aws"
+    },
+    {
+      "$schema": "../schemas/component.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Component",
+      "id": "personal-fitness-os-research-and-course",
+      "type": "content.research-and-curriculum",
+      "productRef": "product:personal-fitness-os",
+      "name": "Fitness research and foundations curriculum",
+      "status": "draft",
+      "source": {
+        "repository": "aliawilkinson/fitness",
+        "path": "plans"
+      }
+    }
+  ],
+  "repositories": [
+    {
+      "$schema": "../schemas/repository.v1.schema.json",
+      "schemaVersion": "1.0.0",
+      "kind": "Repository",
+      "id": "fitness",
+      "type": "repository.git",
+      "provider": "github",
+      "remoteUrl": "https://github.com/aliawilkinson/fitness.git",
+      "status": "active",
+      "productRefs": [
+        "product:personal-fitness-os"
+      ],
+      "notes": [
+        "Research, curriculum, decision records, adaptive rules, validation plans, and commercial proposals for Personal Fitness OS. The untracked original business-plan PDF remains outside the registered source revision.",
+        "Planned application Components have no implemented source path yet. Factory scaffold paths are not Fitness implementation."
+      ],
+      "componentRefs": [
+        "component:personal-fitness-os-ai",
+        "component:personal-fitness-os-analytics",
+        "component:personal-fitness-os-api",
+        "component:personal-fitness-os-auth",
+        "component:personal-fitness-os-billing",
+        "component:personal-fitness-os-cloud-infrastructure",
+        "component:personal-fitness-os-database",
+        "component:personal-fitness-os-delivery-pipeline",
+        "component:personal-fitness-os-growth",
+        "component:personal-fitness-os-notifications",
+        "component:personal-fitness-os-observability",
+        "component:personal-fitness-os-web",
+        "component:personal-fitness-os-research-and-course"
+      ],
+      "defaultBranch": "codex/reddit-demand-research",
+      "sourceLocations": [
+        "https://github.com/aliawilkinson/fitness/blob/cbb54e56ed6dba1a274edc24eb14c5e9c35641bf/plans/personal-fitness-os-product-plan.md"
+      ]
+    }
+  ],
+  "requirements": [
+    "This repository currently owns research and curriculum drafts. The twelve application/service Components are planned, and no production application is claimed.",
+    "Canonical ownership, priorities, account bindings and business decisions require review in MetadataDB."
+  ]
+}
