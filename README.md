@@ -43,3 +43,7 @@ The original `Gym Foundations — Business Plan.pdf` is retained as background. 
 Start with [who, what, when, where, why and how](docs/context.md), including setup, verification, release, operations and recovery. The dated record cites source evidence and marks unanswered questions explicitly.
 
 The existing [canonical Product plan](plans/personal-fitness-os-product-plan.md) retains its six-question intake; the bounded [validation Project](docs/projects/personal-fitness-os-validation.md) has separate context.
+
+## Architecture and operations record
+
+Use the [checkpoint checklist](docs/operating-record/checklist.md) for every milestone, before release, after actual release and at maintenance/handoff. The [architecture and diagrams](docs/operating-record/architecture.md), [operating procedures](docs/operating-record/operations.md), [recovery guide](docs/operating-record/recovery.md) and [dated backfill report](docs/operating-record/reports/2026-10-06-backfill-C0-C2.md) distinguish documented structure from verified operations and open gaps.

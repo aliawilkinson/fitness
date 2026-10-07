@@ -1,0 +1,14 @@
+{
+  "files": 6,
+  "diagrams": 3,
+  "links": 40,
+  "failures": [],
+  "status": "passed",
+  "checkedAt": "2026-10-07T03:14:37.416563+00:00",
+  "tools": {
+    "node": "26.10.0",
+    "mermaid": "11.12.0",
+    "validator": "relative-file-links-and-mermaid-parser"
+  },
+  "scope": "Six operating-record Markdown files; relative file targets and Mermaid syntax. External URLs and anchor existence excluded."
+}
