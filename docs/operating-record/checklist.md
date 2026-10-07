@@ -57,3 +57,7 @@ Use the [project publishing guide](../publishing/README.md) and [dated platform 
 | C3 | Current platform-rule check, exact candidate/hash, applicable rights/content approvals, preview/proof, economics and scoped owner signoff |
 | C4 | Actual edition/offer, listing/delivery receipt, observations and MetadataDB acknowledgement after release |
 | C5 | Corrections, price/terms and content review, support/cadence, channel changes and independently recoverable source/assets |
+
+## Current documentation verification
+
+Use the [committed checker and locked setup](../../tools/docs-validation/README.md) for C2 and receiving-maintainer C5 verification. The [2026-10-07 review follow-up](reports/2026-10-07-review-follow-up-C2-C5.md) records the current checked scope, review corrections and tooling dependency coverage. Retain earlier reports as historical evidence.

@@ -6,7 +6,7 @@ Source authority: [durable context](../context.md), [README](../../README.md), [
 
 ## Reconstruct current research
 
-1. Obtain authorized repository access and a known SHA from the retained milestone report. Clone the verified origin and check the correct default/review branch.
+1. Obtain authorized repository access and a known SHA from the retained milestone report. Clone the verified origin, then select that retained revision with `git checkout --detach <expected-full-SHA>`. Assert `test "$(git rev-parse HEAD)" = "<expected-full-SHA>"` before continuing; the latest default/review branch alone does not identify the historical milestone.
 2. Verify `plans/`, `decisions/`, research inputs/source ledger and calculation script. Restore the original untracked business-plan PDF from approved independent custody separately; its existence in the working directory is not backup evidence.
 3. Use the recorded Python version and run `calculate.py`. Compare `calculated-results.json` against the retained committed result and review a source-to-report reference path.
 4. Recover draft/unpushed decisions from independent backup and reconcile them with the owner rather than overwriting current Git state.

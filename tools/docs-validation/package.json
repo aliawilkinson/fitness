@@ -1,0 +1,17 @@
+{
+  "name": "publication-operating-record-checks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node check.mjs ../../docs/operating-record ../../docs/publishing ../../docs/product-operating-record-standard.md README.md",
+    "test": "node --test check.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "mermaid": "11.17.2"
+  }
+}

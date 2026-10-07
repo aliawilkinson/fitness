@@ -37,4 +37,8 @@ Follow the [project publishing guide](../publishing/README.md) to select a revie
 
 ## Dependency maintenance
 
-The current source has no supported external dependency root for Dependabot; language/OS runtime upkeep remains a maintainer responsibility. See the [C2/C5 dependency audit](reports/2026-10-06-dependency-maintenance-C2-C5.md). Re-audit supported package manifests, build/export installers and hidden GitHub Actions whenever tooling changes; add the correct ecosystem at each actual root before declaring coverage. Review dependency PRs through the existing release gates.
+The publication/research source still has no application dependency manifest. The documentation checker now has a locked npm dependency root at `tools/docs-validation`, covered by weekly Dependabot updates; language/OS runtime upkeep remains a maintainer responsibility. See the [C2/C5 dependency audit](reports/2026-10-06-dependency-maintenance-C2-C5.md). Re-audit supported package manifests, build/export installers and hidden GitHub Actions whenever tooling changes; add the correct ecosystem at each actual root before declaring coverage. Review dependency PRs through the existing release gates.
+
+## Reproduce operating-record verification
+
+At C2 and C5, follow the [committed checker setup](../../tools/docs-validation/README.md): install its locked development dependencies, run its positive/negative fixture tests, then check the final documentation pack. Record the exact scope, command, source and UTC time in a new report. The [review follow-up](reports/2026-10-07-review-follow-up-C2-C5.md) supersedes earlier evidence for the current pack and records the new tooling-only dependency boundary. Historical validation files retain their actual earlier scope and counts.

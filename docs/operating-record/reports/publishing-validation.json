@@ -11,5 +11,8 @@
     "validator": "relative-file-links-and-mermaid-parser"
   },
   "scope": "Operating-record and publishing Markdown; relative file existence and actual Mermaid syntax parsing. External URLs and anchors excluded.",
-  "platformGuidePin": "https://github.com/aliawilkinson/product-factory/blob/b1559f19afeac066110880b01906c8d2427acf55/docs/guides/publication-publishing.md"
+  "platformGuidePin": "https://github.com/aliawilkinson/product-factory/blob/b1559f19afeac066110880b01906c8d2427acf55/docs/guides/publication-publishing.md",
+  "evidenceStatus": "historical snapshot at checkedAt; later documentation additions are outside this result",
+  "supersededForCurrentPackBy": "review-final-validation.json",
+  "reproductionGuide": "../../../tools/docs-validation/README.md"
 }

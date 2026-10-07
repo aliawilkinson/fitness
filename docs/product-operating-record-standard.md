@@ -1,10 +1,10 @@
 # Product architecture and operations record
 
-ID: `product-operating-record`. Version: `1.0.0`. Owner: Product Factory. Scope: new Product repositories and explicitly adopted existing Products.
+ID: `product-operating-record`. Adopted upstream version: `1.0.0`. Standard owner: Product Factory. Local source mapping reviewed 2026-10-07. Scope: new Product repositories and explicitly adopted existing Products.
 
 Start the record during onboarding, complete the design before implementing it, and update it at every milestone. Prepare operating and recovery procedures before release. After release, add dated evidence of what actually deployed and what passed verification. A release is not the first documentation checkpoint.
 
-This standard extends the durable Product context contract. Keep purpose and history in `product.config.json` → `product.context` and its generated `docs/context.md`. Link to that context instead of maintaining another authoritative business narrative. The Product owns its operating record; Components and environments identify the scope of technical claims.
+This standard extends the durable Product context contract. For this existing repository, keep purpose and history in [docs/context.json](context.json) and its generated [docs/context.md](context.md). Edit `docs/context.json`, then regenerate the projection with Product Factory’s `product-context.mjs --record` command. This is the local mapping of the Factory context contract; `product.config.json` is used only by repositories generated with that manifest. Link to that context instead of maintaining another authoritative business narrative. The Product owns its operating record; Components and environments identify the scope of technical claims.
 
 ## Seeded files and responsibility
 
