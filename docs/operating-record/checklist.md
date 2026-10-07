@@ -44,3 +44,16 @@ Every item is **unknown or incomplete**, unless the linked report later supersed
 ## Maintenance rule
 
 At a source/toolchain/dependency, ownership, rights, data or distribution change, update only the affected record and add a new report. Keep previous reports intact. Document `not-applicable` with a reason, separate `documented` from `verified`, and keep credentials/private source content out of operational evidence. Link this pack into MetadataDB through its reviewed ingestion path; catalog acknowledgement remains unknown until returned. Recovery documentation stays usable locally even when the catalog is unavailable.
+
+## Publishing decisions at each checkpoint
+
+Use the [project publishing guide](../publishing/README.md) and [dated platform reference](../publishing/platform-guide.md) alongside this checklist. Record actual choices and evidence in the milestone report; this guide does not approve a launch.
+
+| Gate | Publishing evidence to record |
+| --- | --- |
+| C0 | Intended reader, original value, first offer, accountable author/business owner and identity/rights questions |
+| C1 | Formats/channels, distribution/exclusivity choices, data/access responsibilities and proposed economic experiment |
+| C2 | Reviewed source/sample, final-format preparation, cover/metadata, accessibility and delivery/correction procedure |
+| C3 | Current platform-rule check, exact candidate/hash, applicable rights/content approvals, preview/proof, economics and scoped owner signoff |
+| C4 | Actual edition/offer, listing/delivery receipt, observations and MetadataDB acknowledgement after release |
+| C5 | Corrections, price/terms and content review, support/cadence, channel changes and independently recoverable source/assets |

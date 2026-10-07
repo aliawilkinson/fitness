@@ -1,0 +1,15 @@
+{
+  "files": 9,
+  "diagrams": 3,
+  "links": 60,
+  "failures": [],
+  "status": "passed",
+  "checkedAt": "2026-10-07T03:26:43.777561+00:00",
+  "tools": {
+    "node": "26.10.0",
+    "mermaid": "11.12.0",
+    "validator": "relative-file-links-and-mermaid-parser"
+  },
+  "scope": "Operating-record and publishing Markdown; relative file existence and actual Mermaid syntax parsing. External URLs and anchors excluded.",
+  "platformGuidePin": "https://github.com/aliawilkinson/product-factory/blob/b1559f19afeac066110880b01906c8d2427acf55/docs/guides/publication-publishing.md"
+}
