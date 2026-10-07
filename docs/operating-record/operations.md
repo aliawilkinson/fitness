@@ -34,3 +34,7 @@ The original checkout contains an untracked business-plan PDF. The backfill pres
 ## Publishing and commercial preparation
 
 Follow the [project publishing guide](../publishing/README.md) to select a reviewable first offer and preparation milestone. The [dated platform reference](../publishing/platform-guide.md) supplies external channel guidance; recheck it and current official rules at C3. Keep channel fees/terms separate from project assumptions, record owner-selected price/budget/outcome thresholds, and preserve actual publication/delivery evidence only after a real release. This work prepares decisions and assets; account signup, outreach, payments and publication require their own authorized scope and the existing project approvals.
+
+## Dependency maintenance
+
+The current source has no supported external dependency root for Dependabot; language/OS runtime upkeep remains a maintainer responsibility. See the [C2/C5 dependency audit](reports/2026-10-06-dependency-maintenance-C2-C5.md). Re-audit supported package manifests, build/export installers and hidden GitHub Actions whenever tooling changes; add the correct ecosystem at each actual root before declaring coverage. Review dependency PRs through the existing release gates.
