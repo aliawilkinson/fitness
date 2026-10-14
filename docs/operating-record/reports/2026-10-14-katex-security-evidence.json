@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-14",
+  "node": "26.10.0",
+  "npm": "11.19.1",
+  "candidateFilesSha256": {
+    "package.json": "295032b83b08944d3ca03193401e99a67b696f224fc29515f977337fd0b21069",
+    "package-lock.json": "111c02f6e1a2077cfbff60f6dd093747bc003d343f394e025e29e608e13bba69",
+    "check.mjs": "dff9c2e7c5203fd48680a1a0d171e75aa14ee130e11d6c7611b587fc30f8cf41",
+    "check.test.mjs": "0cb77403e68d08d34f62e38cd93c23ff1d29b6a9166db0016638d1643d755f2b",
+    "security.test.mjs": "ab8214a8fdbbe826219b8158a7a5941b7f433f1aba5a4430ea6ab840561147ac",
+    "README.md": "cbe08b983c12c03d1219183e8dd6bc20e87015cd76b80ffcb5a1d7bab046d3f0"
+  },
+  "baseAudit": {
+    "info": 0,
+    "low": 2,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 2
+  },
+  "candidateAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "advisory": "GHSA-238p-pmpm-9mq7",
+  "baselineInheritedTrustAccepted": true,
+  "candidateSecurityRegressionPassed": true,
+  "testsPassed": 5,
+  "testsSkipped": 0,
+  "packageProvenance": "All 154 resolved package entries retain registry.npmjs.org URLs and SHA-512 integrity; install lifecycle scripts disabled; no hasInstallScript flags introduced",
+  "verification": {
+    "diagrams": {
+      "files": 13,
+      "diagrams": 3,
+      "links": 0,
+      "failures": []
+    },
+    "gitTreeRelativeLinks": 69,
+    "linkFailures": [],
+    "scope": "current base Markdown bodies, proposed Mermaid/KaTeX graph; file links checked against exact Git tree rather than incomplete snapshot filesystem"
+  },
+  "repository": "aliawilkinson/fitness",
+  "baseRevision": "b5dcb13d276a5af24db3e05535cf24fa2a1ce271",
+  "originalDependabotHead": "c7cde84134c79205f9a820ad3400aeadfc7a9719"
+}
