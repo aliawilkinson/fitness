@@ -61,3 +61,5 @@ Use the [project publishing guide](../publishing/README.md) and [dated platform 
 ## Current documentation verification
 
 Use the [committed checker and locked setup](../../tools/docs-validation/README.md) for C2 and receiving-maintainer C5 verification. The [2026-10-07 review follow-up](reports/2026-10-07-review-follow-up-C2-C5.md) records the current checked scope, review corrections and tooling dependency coverage. Retain earlier reports as historical evidence.
+
+C2/C5 security maintenance: [KaTeX compatibility proposal](reports/2026-10-14-katex-security-C2-C5.md). Existing Mermaid proposal now resolves patched KaTeX; five tests and scoped pack verification pass, audit is clean. Explicit compatibility approval and normal hosted/review gates remain; no publication performed.
